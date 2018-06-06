@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: white;
+}
+
+.headerBox {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid white;
+  /* box-shadow: 0 3px 8px white; */
+  background: #2A3032;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.mainBox {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#2B3133, #4E4E50);
+}
+
+.font16>li>a {
+  font-size: 16px;
+}
